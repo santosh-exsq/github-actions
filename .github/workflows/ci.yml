@@ -34,9 +34,18 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo list of files
+          ls -a
           echo Is github installed?
           git --version
           echo Is java installed?
           java -version
           echo Is maven installed
+          mvn -v
+          echo list of environment variable
+          env
+          echo selenium jar path
+          echo $SELENIUM_JAR_PATH
+          echo android sdk intalled?
+          echo $ANDROID_SDK_ROOT
           mvn -version
