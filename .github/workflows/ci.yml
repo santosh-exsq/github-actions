@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo Is github installed?
-          git --versiono
+          git --version
           echo Is java installed?
           java -version
           echo Is maven installed
